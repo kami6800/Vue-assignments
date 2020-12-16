@@ -5,9 +5,8 @@
   :key="resource.title"
   v-bind="resource">
   </display-resource>
-  <base-card class="border-4 border-grey-600 border-dashed text-gray-400 rounded-2xl">
-    <button>Add resource</button>
-  </base-card>
+  <button class="w-full h-full p-6 mb-10 border-4 border-grey-600 border-dashed text-gray-400 rounded-2xl
+                dark:border-gray-400">Add resource</button>
 </template>
 
 <script>
