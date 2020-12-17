@@ -4,14 +4,3 @@
     </div>
 </template>
 
-<script>
-export default {
-    emits:["x-clicked"],
-    methods:{
-        xClicked(){
-            this.$emit("x-clicked");
-        }
-    }
-}
-</script>
-
